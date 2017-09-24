@@ -52,11 +52,11 @@ console.log(myName.firstName); // "Carla"
 console.log(identity.firstName); // "Carla"
 ```
 
-여기서는 로그에서 똑같은 값을 출력한다. 왜냐하면, objects의 경우, =가 by reference 방식으로 동작하기 때문이다.
+로그에서 똑같은 값을 출력한다. 왜냐하면, objects의 경우, =가 by reference 방식으로 동작하기 때문이다.
 다음을 보자.
 
-- 변수 myName을 만들고 `firstName`속성을 가진 객체 값을 받는다. `firstname`은 "Carlos"다.
-- 변수 `identity`는 myName`을 가리킨다.  `identity`에는 메모리 공간이 주어지지 않는다. 그냥 `myName`을 가리킨다.
+- 변수 `myName`을 만들고 `firstName`속성을 가진 객체 값을 받는다. `firstname`은 "Carlos"다.
+- 변수 `identity`는 `myName`을 가리킨다.  `identity`에는 메모리 공간이 주어지지 않는다. 그냥 `myName`을 가리킨다.
 - `myName`의 `firstname`을 "Carlos"에서 "Carla"로 바꾼다.
 
 `myName.firstName`의 로그를 찍어보면 새로운 값이 나온다. `identity.firtName` 또한 'myName.first'의 새로운 값인 "Carla"를 찍는다. `identity.firtName`가 `myName.firstName`의 메모리 공간을 가리키기 때문이다.

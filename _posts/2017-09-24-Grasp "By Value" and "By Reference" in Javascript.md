@@ -42,7 +42,7 @@ console.log(firstName); // "Carlos"
 
 ## Objects의 경우 =는 by reference 방식으로 동작한다.
 
-```
+``` javascript
 var myName = {
   firstName: "Carlos"
 };
@@ -68,7 +68,7 @@ console.log(identity.firstName); // "Carla"
 Primitive Data Types은 by value 방식으로 전달된다.
 함수에서 Primitive Data Type을 바꾸면, outer scope에 영향을 주지 않는다.
 
-```
+``` javascript
 var myName = "Carlos";
 function myNameIs(aName){
   aName = "Carla";

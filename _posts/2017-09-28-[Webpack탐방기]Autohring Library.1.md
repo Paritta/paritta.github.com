@@ -4,19 +4,7 @@ title:  "[Webpack탐방기]Authoring Library"
 author: "Paritta"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD:_posts/2017-09-28-[Webpack탐방기]Autohring Library.1.md
-<<<<<<< HEAD:_posts/2017-09-28-[Webpack탐방기]Autohring Library.1.md
 <img src="https://cdn-images-1.medium.com/max/1920/1*gdoQ1_5OID90wf1eLTFvWw.png">
-=======
-<img src="https://www.google.co.kr/search?q=webpack&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiw663E88fWAhWGabwKHSJZB7kQ_AUICygC&biw=1745&bih=915#imgrc=tf-2ha3fypZlMM:">
->>>>>>> 6a18c62... 1:_posts/2017-09-28-[Webpack탐방기]Autohring Library.md
-=======
-<img src="https://cdn-images-1.medium.com/max/1920/1*gdoQ1_5OID90wf1eLTFvWw.png">
->>>>>>> 135f2ab... 1:_posts/2017-09-28-[Webpack탐방기]Autohring Library.md
-=======
-<img src="https://cdn-images-1.medium.com/max/1920/1*gdoQ1_5OID90wf1eLTFvWw.png">
->>>>>>> 64aff886961e8708b04a90287b4acc21c72be3cf
 
 # [Webpack탐방기]Authoring Library 
 [*https://webpack.js.org/guides/author-libraries/*](https://webpack.js.org/guides/author-libraries/)

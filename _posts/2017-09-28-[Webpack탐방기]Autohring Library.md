@@ -5,14 +5,14 @@ author: "Paritta"
 ---
 
 # [Webpack탐방기]Authoring Library 
-참고: https://webpack.js.org/guides/author-libraries/
+[*https://webpack.js.org/guides/author-libraries/*](https://webpack.js.org/guides/author-libraries/)
 
-> 이 글에 나와있는 대부분의 코드는 webpack 공식 문서를 참고함.
+> 이 글에 나와있는 대부분의 코드는 webpack 공식 문서를 참고함
 
 ## 라이브러리 제작히기
-> *Aside from applications, webpack can also be used to **bundle** JavaScript libraries. The following guide is meant for library authors looking to streamline their bundling strategy.*
+> *Aside from applications, webpack can also be used to `bundle` JavaScript libraries. The following guide is meant for library authors looking to streamline their bundling strategy.*
 
-:arrow_up: 웹팩 공식문서에 나와있는 설명이다
+- *웹팩 공식문서에 나와있는 설명이다.*
 
 > *A bundle is some related code packaged into a single file.*
 
@@ -20,7 +20,7 @@ author: "Paritta"
 
 > *A module is a JS module (e.g. a CommonJS or an ES6 module). Because internally webpack deals only with modules, all non-js assets are also wrapped in modules. So if you have some .sass files for example, you will import/require them in JS files for them to be bundled, but if you use ExtractTextWebpackPlugin it will output a separate CSS bundle for those files.*
 
-https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in-webpack
+[*https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in-webpack*](https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in-webpack)
 
 공식 문서에 나와에 webpack에서 쓰는 bundle같은 용어가 어려운데 스택 오버플로우에 잘 정리해주신 분이 있으니 참고하자.
 
@@ -31,7 +31,7 @@ https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in
 - Node.js에서 접근할 수 있게 하기
 
 *예제 저장소를 레포라고 부르겠다.*
-> https://github.com/kalcifer/webpack-library-example
+[*https://github.com/kalcifer/webpack-library-example*](https://github.com/kalcifer/webpack-library-example)
 
 ## Externalize Lodash
 웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependench`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.

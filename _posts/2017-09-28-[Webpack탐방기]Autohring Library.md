@@ -24,7 +24,7 @@ author: "Paritta"
 
 [*https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in-webpack*](https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in-webpack)
 
-공식 문서에 나와에 webpack에서 쓰는 bundle같은 용어가 어려운데 스택 오버플로우에 잘 정리해주신 분이 있으니 참고하자.
+> 공식 문서에 나와에 webpack에서 쓰는 bundle같은 용어가 어려운데 스택 오버플로우에 잘 정리해주신 분이 있으니 참고하자.
 
 서두에 있는 공식문서 예제에 보면 목표가 있다.
 - 레포에 있는 `lodash`를 번들링 과정에서 제외하기.
@@ -37,7 +37,7 @@ author: "Paritta"
 [*https://github.com/kalcifer/webpack-library-example*](https://github.com/kalcifer/webpack-library-example)
 
 ## Externalize Lodash
-웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependency`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.
+> 웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependency`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.
 
 공식 문서를 참고해서, `externals`프로퍼티를 설정한다.
 
@@ -64,7 +64,7 @@ var path = require('path');
 ```
 
 ## Expose the Library
-라이브러리를 CommonJS, AMD, Node.js등 다양한 환경에서 global variable로 사용하기 위해서 webpack.config.js 파일을 `output`에 있는 `library` 프로퍼티를 수정해주자.
+> 라이브러리를 CommonJS, AMD, Node.js등 다양한 환경에서 global variable로 사용하기 위해서 webpack.config.js 파일을 `output`에 있는 `library` 프로퍼티를 수정해주자.
 
 **webpack.config.js**
 ```javascript

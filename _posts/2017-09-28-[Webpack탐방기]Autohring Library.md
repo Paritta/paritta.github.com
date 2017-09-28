@@ -96,4 +96,5 @@ var path = require('path');
  - UMD: available after AMD or CommonJS require (libraryTarget:'umd').
  ```
 
+라이브러리가 신비해보이기만 했었다. 문서를 보니 예제를 포크해서 요리조리 고치면 라이브러리도 만들어 볼 수 있을것 같다.
 

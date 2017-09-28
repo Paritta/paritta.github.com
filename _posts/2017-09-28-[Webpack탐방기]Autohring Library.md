@@ -2,7 +2,6 @@
 layout: post
 title:  "[Webpack탐방기]Autohring Library"
 author: "Paritta"
-published: false
 ---
 
 # [Webpack탐방기]Autohring Library 
@@ -27,12 +26,39 @@ https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in
 
 서두에 있는 공식문서 예제에 보면 목표가 있다.
 - 레포에 있는 `lodash`를 번들링 과정에서 제외하기.
-- 라이브러리 이름을 `webpack-numbers기로 세팅하기
+- 라이브러리 이름을 `webpack-numbers`로 세팅하기
 - 라이브러리 변수 이름을 `webpackNumbers`로 하기
 - Node.js에서 접근할 수 있게 하기
 
-예제 저장소를 레포라고 부르겠다.
-> *https://github.com/kalcifer/webpack-library-example*
+*예제 저장소를 레포라고 부르겠다.*
+> https://github.com/kalcifer/webpack-library-example
+
+## Externalize Lodash
+웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependench`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.
+
+공식 문서를 참고해서, `externals`프로퍼티를 설정한다.
+
+**webpack.config.js**
+```javascript
+var path = require('path');
+
+  module.exports = {
+    entry: './src/index.js',
+    output: {
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'webpack-numbers.js'
+-   }
++   },
++   externals: {
++     lodash: {
++       commonjs: 'lodash',
++       commonjs2: 'lodash',
++       amd: 'lodash',
++       root: '_'
++     }
++   }
+  };
+```
 
 ## Expose the Library
 라이브러리를 CommonJS, AMD, Node.js등 다양한 환경에서 global variable로 사용하기 위해서 webpack.config.js 파일을 `output`에 있는 `library` 프로퍼티를 수정해주자.
@@ -64,10 +90,10 @@ https://stackoverflow.com/questions/42523436/what-are-module-chunk-and-bundle-in
 
 사용하는 법과 자세한 내용은 문서를 참고하자
 ```
- Variable: as a global variable made available by a script tag (libraryTarget:'var').
- This: available through the this object (libraryTarget:'this').
- Window: available trough the window object, in the browser (libraryTarget:'window').
- UMD: available after AMD or CommonJS require (libraryTarget:'umd').
+ - Variable: as a global variable made available by a script tag (libraryTarget:'var').
+ - This: available through the this object (libraryTarget:'this').
+ - Window: available trough the window object, in the browser (libraryTarget:'window').
+ - UMD: available after AMD or CommonJS require (libraryTarget:'umd').
  ```
 
 

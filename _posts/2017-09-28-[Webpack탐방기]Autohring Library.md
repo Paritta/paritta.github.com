@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[Webpack탐방기]Autohring Library"
+title:  "[Webpack탐방기]Authoring Library"
 author: "Paritta"
 ---
 
-# [Webpack탐방기]Autohring Library 
+# [Webpack탐방기]Authoring Library 
 참고: https://webpack.js.org/guides/author-libraries/
 
 > 이 글에 나와있는 대부분의 코드는 webpack 공식 문서를 참고함.

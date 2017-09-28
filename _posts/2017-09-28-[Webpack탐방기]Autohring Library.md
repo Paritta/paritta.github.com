@@ -4,7 +4,7 @@ title:  "[Webpack탐방기]Authoring Library"
 author: "Paritta"
 ---
 
-<img src="https://www.google.co.kr/search?q=webpack&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiw663E88fWAhWGabwKHSJZB7kQ_AUICygC&biw=1745&bih=915#imgrc=tf-2ha3fypZlMM:">
+<img src="https://cdn-images-1.medium.com/max/1920/1*gdoQ1_5OID90wf1eLTFvWw.png">
 
 # [Webpack탐방기]Authoring Library 
 [*https://webpack.js.org/guides/author-libraries/*](https://webpack.js.org/guides/author-libraries/)

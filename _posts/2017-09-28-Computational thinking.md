@@ -2,7 +2,6 @@
 layout: post
 title:  "Computational thinking"
 author: "IT융합응용공학과 201430187 임성훈"
-published: false
 ---
 
 # Computational thinking

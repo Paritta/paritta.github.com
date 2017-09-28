@@ -4,6 +4,8 @@ title:  "[Webpack탐방기]Authoring Library"
 author: "Paritta"
 ---
 
+<img src="https://cdn-images-1.medium.com/max/1920/1*gdoQ1_5OID90wf1eLTFvWw.png">
+
 # [Webpack탐방기]Authoring Library 
 [*https://webpack.js.org/guides/author-libraries/*](https://webpack.js.org/guides/author-libraries/)
 
@@ -31,10 +33,11 @@ author: "Paritta"
 - Node.js에서 접근할 수 있게 하기
 
 *예제 저장소를 레포라고 부르겠다.*
+
 [*https://github.com/kalcifer/webpack-library-example*](https://github.com/kalcifer/webpack-library-example)
 
 ## Externalize Lodash
-웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependench`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.
+웹팩을 실행시켜보면 번들에 lodash가 포함되어 있다고 한다고 한다. (실행 안시켜봄. 다음부터는 해봐야지 >..<)이 경우에, lodash를 `peerDependency`라고 한다. 사용자는 lodash를 이미 설치해서 또 설치할 필요가 없는데, 웹팩은 lodash를 번들에 포함시킨다. 성능 문제로 귀결될 가능성이 높다.
 
 공식 문서를 참고해서, `externals`프로퍼티를 설정한다.
 
@@ -96,4 +99,5 @@ var path = require('path');
  - UMD: available after AMD or CommonJS require (libraryTarget:'umd').
  ```
 
+라이브러리가 신비해보이기만 했었다. 문서를 보니 예제를 포크해서 요리조리 고치면 라이브러리도 만들어 볼 수 있을것 같다.
 

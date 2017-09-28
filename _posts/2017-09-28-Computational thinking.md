@@ -2,13 +2,12 @@
 layout: post
 title:  "Computational thinking"
 author: "IT융합응용공학과 201430187 임성훈"
+published: false
 ---
-
-# Computational thinking
 
 > *컴퓨팅 사고(영어: Computational Thinking)은 정답이 정해지지 않은 문제에 대한 해답을 `일반화`하는 과정이다. 정답이 정해지지 않은 문제(Open-ended Problem)는 다양한 변수에 기반한 포괄적이며 유의미한 해답도출이 필요한데, ...*
 
-출처: [https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85_%EC%82%AC%EA%B3%A0](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85_%EC%82%AC%EA%B3%A0)
+출처: [https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85_%EC%82%AC%EA%B3%A0](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85_%EC%82%AC%EA%B3%A0) 
 
 위키피디아를 참고한 내용입니다.  위와 같은 정의에서, 컴퓨팅 사고의 의미는 일반화에 있다고 생각해서 일반화에 대해 알아봤습니다.
 
@@ -23,8 +22,8 @@ author: "IT융합응용공학과 201430187 임성훈"
 출처: [https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-korean.pdf](https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-korean.pdf)
 
 위 글은 Wing M. Jeannette. (2006). Computational Thinking. “Communications of the ACM”, 49(3), 33-35.의 번역문 입니다. 이 자료를 보고 위에서 본 나무위키의 정의와 같은 맥락으로, 컴퓨팅 사고가 요구하는 `문제를 효율적으로 해결하기 위한 일반적인` 사고가 있다는 것을 다시 한번 확인 할 수 있었습니다.
-
-저는 비동일계 편입생으로, 학교에 처음 편입하고 권오흠 알고리즘 수업을 듣었습니다. 비동일계 편입생이 들을 수 있는 수업 수준이 아니였습니다. 그래서 1년이 지난 아직도 권오흠 교수님의 인터넷 강의를 보면서 혼자 프로그래밍 공부를 하곤 합니다.
+들
+저는 비동일계 편입생으로, 학교에 처음 편입하고 권오흠 알고리즘 수업을 들었습니다. 비동일계 편입생이 들을 수 있는 수업 수준이 아니였습니다. 그래서 1년이 지난 아직도 권오흠 교수님의 인터넷 강의를 보면서 혼자 프로그래밍 공부를 하곤 합니다.
 
 ```
 문제

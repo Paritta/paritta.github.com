@@ -2,6 +2,7 @@
 layout: post
 title:  "[읽는 중]The ART of SOFTWARE TESTING"
 author: "Paritta"
+comments: true
 ---
 
 <img src="http://mansainfotech.com/blog/wp-content/uploads/2016/10/softtest.png">

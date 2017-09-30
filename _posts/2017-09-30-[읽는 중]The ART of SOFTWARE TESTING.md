@@ -26,13 +26,17 @@ author: "Paritta"
 
 인프런에 테스트 주도 개발 노드제이에스 인강만 보고 테스트가 유지보수를 하기 위한 것이라고 간단하게 정의하고 있었다.
 
-테스트의 심리학적인 부분이나 블랙박스 테스팅이나 화이트 박스 테스팅 같은 부분에 대해서 깊이 공부해서 테스트를 하 이유를 알지 못하면 사실 테스트를 이해하기 힘들다.
+> *테스트의 심리학적인 부분이나 블랙박스 테스팅이나 화이트 박스 테스팅 같은 부분에 대해서 깊이 공부해서 테스트를 하 이유를 알지 못하면 사실 테스트를 이해하기 힘들다.*
 
 2장과 5장이 특히 많이 도움이 될 것 같다.
 
 테스트를 공부하고 싶어하는 친구가 있으면 이 책을 추천해줄 것 같다. 책을 읽으면서 머리에 탁탁 들어박히는 좋은 글이 많다.
 
 > *Consider the analogy of a person visiting a doctor because of an overall feeling of malaise. If the doctor runs some laboratory tests that do not locate the problem, we do not call the laboratory tests “successful”; they were unsuccessful tests in that the patient’s net worth has been reduced by the expensive laboratory fees, the patient is still ill, and the patient may question the doctor’s ability as a diagnostician. However, if a laboratory test determines that the patient has a peptic ulcer, the test is successful because the doctor can now begin the appropriate treatment. Hence, the medical profession seems to use these words in the proper sense. The analogy, of course, is that we should think of the program, as we begin testing it, as the sick patient.*
+
+4장에서 ...
+
+> *Nobody  ever  promised  that  software  testing  would  be  easy.  Toquote an old sage, “If you thought designing and coding that pro-gram was hard, you ain’t seen nothing yet.”*
 
 무슨 말인지 모호해서 아무것도 읽지 않은 것같은 단락도 있다.
 
@@ -46,7 +50,7 @@ play a major role in the application `aethetics`???
 
 ??????????????
 
-관심 많은 부분이라 유심히 봤지만 읽이 않은 것과 똑같다.
+관심 많은 부분이라 유심히 봤지만 읽지 않은 것과 똑같다.
 UI 테스팅을 할때 중요한 부분만 팀에서 회의를 해서 결정해야될 것 같다. 테스팅은 경제적이어야 하니까.
 
 

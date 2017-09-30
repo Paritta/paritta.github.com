@@ -5,6 +5,7 @@ author: "Paritta"
 comments: true
 ---
 
+
 <img src="http://mansainfotech.com/blog/wp-content/uploads/2016/10/softtest.png">
 
 쉽게 생각할 문제가 아니였다.

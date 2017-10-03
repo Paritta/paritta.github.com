@@ -20,6 +20,8 @@ author: "Paritta"
 
 테두리에 여백이 생기는 문제는 없어졌는데 헤더 위에 여백에 또 생긴걸 볼 수 있다. 크롬 브라우저로 디버깅 해봐도 딱히 문제는 보이지 않는다. 역시 구글링을 해본다.
 
+> 스크린샷을 찍었더니 브라우저 가장자리 여백이 안보인다... 있어요 여백... ㅎㅎ
+
 *[https://stackoverflow.com/questions/7374657/normalize-css-top-header-gap](https://stackoverflow.com/questions/7374657/normalize-css-top-header-gap)*
 
 역시 스택 오버 플로우가 짱이다.

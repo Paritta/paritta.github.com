@@ -16,7 +16,7 @@ author: "Paritta"
 
 <img src="../img/Normarlize.css 적용기/스크린샷 2017-10-03 오후 8.15.23.png">
 
-![Image]({{site.url}}/assets/Normarlize.css 적용하기/1.png)
+![Image]({{site.url}}/assets/1.png)
 
 테두리에 여백이 생기는 문제는 없어졌는데 헤더 위에 여백에 또 생긴걸 볼 수 있다. 크롬 브라우저로 디버깅 해봐도 딱히 문제는 보이지 않는다. 역시 구글링을 해본다.
 

@@ -3,7 +3,7 @@ layout: post
 title:  "[React]테스팅 할때 Hoc때문에 생긴 문제"
 author: "Paritta"
 ---
-
+ 
 <img src='https://cdn-images-1.medium.com/max/1362/1*9OxlTTIo8K3M82iQPbW03g.png'>
 
 # [React]테스팅 할때 Hoc때문에 생긴 문제
@@ -60,6 +60,8 @@ import { App } from './App'
 
 *[higher-order components](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)*
 
-이 글 짱 재밌다 나중에 시간나면 번역 한번 해봐야겠다.
+이 글 짱 재밌다 나중에 시간나면 번역 한번 해봐야겠다...
+
+
 
 

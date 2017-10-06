@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Redux 테스트 하는 법"
+title:  "[React]테스팅 할때 Hoc때문에 생긴 문제"
 author: "Paritta"
 ---
 
 <img src='https://cdn-images-1.medium.com/max/1362/1*9OxlTTIo8K3M82iQPbW03g.png'>
 
-# Redux 테스트 하는 법
+# [React]테스팅 할때 Hoc때문에 생긴 문제
 
 *[http://redux.js.org/docs/recipes/WritingTests.html](http://redux.js.org/docs/recipes/WritingTests.html)*
 

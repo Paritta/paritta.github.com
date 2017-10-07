@@ -32,7 +32,7 @@ yourCar.color = 'blue'; // reference stays the same!
 
 주석에 나와 있는 것처럼 yourCar의 색깔은 바꼈지만 참조는 같다.
 
-> 그럼 yourCar의 참조를 어떻게 바꿔야할까?
+> *그럼 yourCar의 참조를 어떻게 바꿔야할까?*
 
 `assign()`함수를 사용하는 상황을 생각해보자. 
 
@@ -52,6 +52,6 @@ yourCarRepainted === yourCar; // false :(
 
 위의 예제는 또 색깔은 같지만 ===연산을 해보면 다르다고 나온다.
 
-> The only problem is mutations that you perform but doesn’t change a value at all also creates a new object:
+> *The only problem is mutations that you perform but doesn’t change a value at all also creates a new object:*
 
 문서에서 이런 문제를 위와 같이 소개하고 있다.... 좋은 내용같아서 메모!

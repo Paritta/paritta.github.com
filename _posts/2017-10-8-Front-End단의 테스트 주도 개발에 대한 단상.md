@@ -2,6 +2,7 @@
 layout: post
 title:  "Front-End단의 테스트 주도 개발에 대한 단상"
 author: "Paritta"
+published: false
 ---
  
 <img src='https://cdn-images-1.medium.com/max/1362/1*9OxlTTIo8K3M82iQPbW03g.png'>

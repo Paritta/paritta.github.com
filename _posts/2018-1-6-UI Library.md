@@ -4,7 +4,7 @@ title:  "UI Library"
 author: "Paritta"
 ---
  
-<img src='https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwj9s_704cLYAhWCurwKHZ4yAngQjBwIBA&url=https%3A%2F%2Fexcodus.com%2Fstorage%2Fapp%2Fuploads%2Fpublic%2F571%2F646%2Fd5e%2F571646d5e7bb6046941113.png&psig=AOvVaw1sCHjzlW-jmRR00euCM4Dn&ust=1515308407201200'>
+<img src='https://excodus.com/storage/app/uploads/public/571/646/d5e/571646d5e7bb6046941113.png'>
 
 ``` css
 /** Pure CSS wave effect **/

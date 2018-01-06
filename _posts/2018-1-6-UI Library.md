@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Lint, Prettier"
+title:  "UI Library"
 author: "Paritta"
 ---
  
-<img src='https://www.google.co.kr/search?biw=1536&bih=864&tbm=isch&sa=1&ei=W3JQWpiVLoSH8wXWnLugAQ&q=semantic+ui&oq=semantic+ui&gs_l=psy-ab.3..0l2j0i30k1l6j0i24k1l2.2531.4959.0.5051.2.2.0.0.0.0.279.279.2-1.1.0....0...1c.1.64.psy-ab..1.1.278....0.ybPY_h_uUPM#imgrc=zzPCZfogIibUUM:'>
+<img src='https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwj9s_704cLYAhWCurwKHZ4yAngQjBwIBA&url=https%3A%2F%2Fexcodus.com%2Fstorage%2Fapp%2Fuploads%2Fpublic%2F571%2F646%2Fd5e%2F571646d5e7bb6046941113.png&psig=AOvVaw1sCHjzlW-jmRR00euCM4Dn&ust=1515308407201200'>
 
 ``` css
 /** Pure CSS wave effect **/

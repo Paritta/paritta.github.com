@@ -6,7 +6,7 @@ author: "Paritta"
  
 ## 원리
 
-<img src='https://alligator.io/images/react/react-css.png'>
+<img src='https://developers.google.com/web/updates/images/2016/12/performant-parallaxing/parallax.jpg'>
 무작정 css로 구현하는 parallax를 찾아서 따라하다보니까 구현하기가 힘들다. 정확하게 어떻게 동작 하는지 알아야 다른 더 복잡한 parallax를 구현하는데 도움이 될 것 같다.
 
 - [100% CSS Parallax Scrolling Effect](https://www.okgrow.com/posts/css-only-parallax)
@@ -57,4 +57,3 @@ parallax는 내가 보는 전체 화면에서 동작되기 때문에 height 100v
    
 
 
-   

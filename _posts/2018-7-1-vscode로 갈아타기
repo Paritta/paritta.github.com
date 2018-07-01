@@ -4,7 +4,7 @@ title:  "vscode로 갈아타기"
 author: "Paritta"
 ---
  
-<img src='https://alligator.io/images/react/react-css.png'>
+<img src='https://jmyang.kr/wp-content/uploads/2018/01/vs-code-logo-730x350.png'>
 
 ## Webstorm에서 vs로..........
 vscode가 좀 더 가벼운거 느낌이다. 전체적인 ui느낌도 좋다. webstorm도 안될건 없지만 staging 하고 푸시하는것도 vscode가 더 가볍고 간편한 느낌이다.
@@ -38,5 +38,5 @@ git diff 957fbc92b123030c389bf8b4b874522bdf2db72c ce489262a1ee34340440e55a0b99ea
 이런 비슷한 내용 뒤적여보니 자료가 많았는데 이 정도 외에는 쓸일이 잘 없을 것 같다. 있으면... 그때그때 찾아서....
 
 깔끔한 UI의 GitDesktop에 꽂혔는데 GitDesktop에서 해당 레포 경로로 vscode를 바로 열 수 있는 단축키가 있다는 점도 맘에 든다.
-
+시간이 되면 GitDesktop에 위에 정리한 Diff기능 붙여서 풀 리퀘 보내고 싶다. 일렉트론 고고싱....
 

@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Paritta's blog
+title:          namuwikilover's blog
 paginate:       5
 baseurl:        ""
-url:            "https://Paritta.github.io/paritta.github.com"
+url:            "https://namuwikilover.github.io/"
 
 # Assets
 sass:

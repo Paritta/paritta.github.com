@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          namuwikilover's blog
 paginate:       5
 baseurl:        ""
-url:            "https://namuwikilover.github.io/"
+url:            "https://namuwikilover.github.io/namuwikilover.github.com"
 
 # Assets
 sass:
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/Paritta/paritta.github.com
+  repo:         https://github.com/namuwikilover/namuwikilover.github.com
 
 # Gems
 gems:

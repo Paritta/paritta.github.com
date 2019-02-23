@@ -16,4 +16,5 @@ h1~6 태그로 구조를 잡을 때 section 태그를 이용해서 구조를 잡
 
 ### 주의할 점....
 스타일링을 위해서는 section 대신 div를 사용해달라고 한다.
+
 http://html5doctor.com/the-section-element/
